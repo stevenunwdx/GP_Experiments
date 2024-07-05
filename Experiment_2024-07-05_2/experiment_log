@@ -1,0 +1,6 @@
+First GP Experiment, most updated version.
+Date: July 07, 2024 
+
+One model: RBF Kernel, Constant Mean GP (gpytorch.models.ExactGP)
+Test Function: 0,1,2,3,4
+Model Evaluation Metrics: Coefficient of Determination, MAPE, Maximum Residual Error, RMSE
