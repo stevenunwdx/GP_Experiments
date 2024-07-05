@@ -1,6 +1,25 @@
-First GP Experiment, most updated version.
-Date: July 07, 2024 
+Experiment: First GP Experiment, most updated version.
+Date: July 05, 2024 
 
-One model: RBF Kernel, Constant Mean GP (gpytorch.models.ExactGP)
-Test Function: 0,1,2,3,4
-Model Evaluation Metrics: Coefficient of Determination, MAPE, Maximum Residual Error, RMSE
+Description: 
+Use one model, the RBF Kernel, Constant Mean GP (subclass gpytorch.models.ExactGP) to learn Test Functions 0,1,2,3,4 from the catalog.  
+Evaluate regression using the four metrics Coefficient of Determination (R^2 score), MAPE, Maximum Residual Error, RMSE
+
+Contents of Folder:
+      -Experiment Data:
+        --Plain CSV File
+        --Excel File
+        --R^2 Score Graph
+        --MAPE Graph
+        --Maximum Residual Error Graph
+        --RMSE Graph
+      
+      -Experiment Apparatus:
+        --Main driver script
+        --Models script
+        --Utilty Functions script
+        --Test Functions script
+      
+
+
+
